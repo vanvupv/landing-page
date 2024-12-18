@@ -1,0 +1,26 @@
+$body: #333333;
+$primary : #22A05B; //1
+$secondary : #29C06D; //2
+$success : #30E07F; //3
+$info : #36FF92; //4
+$warning : #E74C3C; //5
+
+body {
+    line-height: 1.5 !important;
+}
+
+.elementor-widget-text-editor .elementor-widget-container>*:last-child {
+    margin: 0px;
+}
+
+.elementor-button-link {
+
+    .elementor-button-icon,
+    .elementor-button-text {
+        display: flex !important;
+    }
+
+    .elementor-button-content-wrapper {
+        align-items: center !important;
+    }
+}
